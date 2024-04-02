@@ -1,0 +1,594 @@
+body {
+    /* font-family: 'IBM Plex Mono', monospace; */
+    overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* header  */
+
+header {
+    height: 100px;
+    background: rgb(255, 255, 255);
+}
+
+.header-block {
+    margin-left: 20%;
+    margin-top: -100px;
+}
+
+.header-block a  {
+    float: left;
+    margin-right: 40px;
+    margin-top: 4%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px;
+}
+
+.header-block li a {
+    color: #000000;
+}
+
+.header-block a:hover {
+    background-color: rgba(225, 225, 225, 0.582);
+    border-radius: 10px;
+}
+
+
+/* logo  */
+
+
+.logo {
+    font-size: 28px;
+    font-weight: 400;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+/* main menu (slide-show)  */
+
+
+.main-block {
+    width: auto;
+    height: 1200px;
+}
+
+
+
+
+
+
+#fruits {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+    /* border: 1px solid;
+    border-radius: 12px;
+    border-color: rgba(173, 173, 173, 0.582); */
+    text-align: center;
+}
+
+
+
+#fruits a:hover {
+    background-color: rgba(225, 225, 225, 0.582);
+    border-radius: 10px;
+}
+
+
+/* первый блок с большим фото  */
+
+.mainPhoto {
+    width: 100%;
+    height: 900px;
+}
+
+.photo {
+    width: auto;
+    height: 700px;
+    background: url(/img/second.jpg)0% 0% / 100% no-repeat;
+    border-radius: 12px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+/* текст о компании (первый)  */
+
+.mainTextBlock {
+    width: 100%;
+    height: 400px;
+}
+
+.firstTextAboutCompany {
+    width: 1000px;
+    height: 200px;
+    font-size: 72px;
+    margin-left: 3%;
+    margin-top: -100px;
+}
+
+.seconTextAboutConmapy {
+    width: 700px;
+    height: 200px;
+    font-size: 32px;
+    margin-left: 60%;
+    margin-top: -100px;
+}
+
+.aboutUsButton {
+    font-size: 19;
+    border-radius: 32px;
+    padding: 15px;
+    padding-top: 7px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+    border: #000000 solid 1px;
+}
+
+.aboutUsButton:hover {
+    background-color: rgba(0, 3, 31, 0.825);
+    color: white;
+    font-weight: 200;
+}
+
+/* second photo block  */
+
+
+.secondPhoto {
+    width: 100%;
+    height: 900px;
+    
+}
+
+.photo-sec {
+    width: auto;
+    height: 700px;
+    background: url(/img/fhree.jpg)0% 0% / 100% no-repeat;
+    border-radius: 12px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+
+/* четверной блок с мини текстами  */
+
+.tmnt {
+    width: 100%;
+    height: 400px;
+    margin-top: -130px;
+}
+
+/* первый мини текст  */
+
+.firstT {
+    width: 400px;
+    height: 300px;
+    margin-left: 7%;
+}
+
+.firstT h3 {
+    font-size: 42px;
+}
+
+.firstT p {
+    font-size: 32px;
+    padding-top: 20px;
+    line-height: 40px;
+}
+
+/* второй мини текст  */
+
+.secondT {
+    width: 400px;
+    height: 300px;
+    margin-left: 30%;
+    margin-top: -300px;
+}
+
+.secondT h3 {
+    font-size: 42px;
+}
+
+.secondT p {
+    font-size: 32px;
+    padding-top: 20px;
+    line-height: 40px;
+}
+
+/* третий мини текст  */
+
+.threeT {
+    width: 400px;
+    height: 300px;
+    margin-left: 55%;
+    margin-top: -300px;
+}
+
+.threeT h3 {
+    font-size: 42px;
+}
+
+.threeT p {
+    font-size: 32px;
+    padding-top: 20px;
+    line-height: 40px;
+}
+
+/* четвертый мини текст  */
+
+.fourT {
+    width: 400px;
+    height: 300px;
+    margin-left: 80%;
+    margin-top: -300px;
+}
+
+.fourT h3 {
+    font-size: 42px;
+}
+
+.fourT p {
+    font-size: 32px;
+    padding-top: 20px;
+    line-height: 40px;
+}
+
+/* костыли будущего слайдера (5 круглых фотографий)   */
+
+.aroundPhoto {
+    width: 100%;
+    height: 700px;
+    margin-top: -50px;
+}
+
+/* первое круглое фото  */
+
+.firstAroudPhoto {
+    width: 15%;
+    height: 290px;
+    background: url(/img/krug3.jpg)50% 0% / 200% no-repeat;
+    border-radius: 50%;
+    margin-left: 3%;
+}
+
+/* второе круглое фото  */
+
+.secondAroudPhoto {
+    width: 15%;
+    height: 290px;
+    background: url(/img/krug1.jfif)80% 0% / 200% no-repeat;
+    border-radius: 50%;
+    margin-left: 22%;
+    margin-top: -15%;
+}
+
+/* третие круглое фото  */
+
+.threeAroudPhoto {
+    width: 15%;
+    height: 290px;
+    background: url(/img/krug2.jfif)70% 0% / 200% no-repeat;
+    border-radius: 50%;
+    margin-left: 42%;
+    margin-top: -16%;
+}
+
+/* четвертое круглое фото  */
+
+.fourAroudPhoto {
+    width: 15%;
+    height: 290px;
+    background: url(/img/krug4.jpg)80% 30% / 200% no-repeat;
+    border-radius: 50%;
+    margin-left: 62%;
+    margin-top: -16%;
+}
+
+/* пятое круглое фото  */
+
+.fiveAroudPhoto {
+    width: 15%;
+    height: 290px;
+    background: url(/img/krug5.jpeg)50% 0% / 200% no-repeat;
+    border-radius: 50%;
+    margin-left: 80%;
+    margin-top: -15%;
+}
+
+/* Карточки и услуги спа салона  */
+
+
+.servicesSPA {
+    width: 100%;
+    height: 1600px;
+}
+
+.servicesSPA h1 {
+    font-size: 62px;
+    margin-top: -100px;
+    margin-left: 3%;
+    font-size: 52px;
+}
+
+.serviseCard p {
+    font-size: 44px;
+    color: #d5b502;
+    font-weight: 600;
+    position: relative;
+    top: 450px;
+    text-align: center;
+}
+
+/* Card  */
+
+.serviseCard {
+    width: 100%;
+    height: 1400px;
+}
+
+.firstServiceCard {
+    height: 600px;
+    width: 400px;
+    background: url(/img/spa1.jpg)50% 0% / 200% no-repeat;
+    border: 1px;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-left: 3%;
+}
+
+.firstServiceCard:hover {
+    background: url(/img/spa1.jpg)50% 0% / 220% no-repeat;
+}
+
+.secondServiceCard {
+    height: 600px;
+    width: 400px;
+    background: url(/img/spa2.jpg)50% 0% / 200% no-repeat;
+    border: 1px;
+    border-radius: 15px;
+    margin-left: 27%;
+    margin-top: -32%;
+}
+
+.secondServiceCard:hover {
+    background: url(/img/spa2.jpg)50% 0% / 220% no-repeat;
+}
+
+.threeServiceCard {
+    height: 600px;
+    width: 400px;
+    background: url(/img/spa3.jpg)50% 0% / 300% no-repeat;
+    border: 1px;
+    border-radius: 15px;
+    margin-left: 51%;
+    margin-top: -32%;
+}
+
+.threeServiceCard:hover {
+    background: url(/img/spa3.jpg)50% 0% / 320% no-repeat;
+}
+
+.fourServiceCard {
+    height: 600px;
+    width: 400px;
+    background: url(/img/spa4.jpg)50% 0% / 200% no-repeat;
+    border: 1px;
+    border-radius: 15px;
+    margin-left: 75%;
+    margin-top: -32%;
+}
+
+.fourServiceCard:hover {
+    background: url(/img/spa4.jpg)50% 0% / 220% no-repeat;
+}
+
+.fiveServiceCard {
+    height: 600px;
+    width: 400px;
+    background: url(/img/spa4.jpg)50% 0% / 200% no-repeat;
+    border: 1px;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-left: 3%;
+}
+
+.fiveServiceCard:hover {
+    background: url(/img/spa4.jpg)50% 0% / 220% no-repeat;
+}
+
+.sixServiceCard {
+    height: 600px;
+    width: 400px;
+    background: url(/img/spa6.jpg)50% 0% / 200% no-repeat;
+    border: 1px;
+    border-radius: 15px;
+    margin-left: 27%;
+    margin-top: -32%;
+}
+
+.sixServiceCard:hover {
+    background: url(/img/spa6.jpg)50% 0% / 220% no-repeat;
+}
+
+.sevenServiceCard {
+    height: 600px;
+    width: 400px;
+    background: url(/img/spa7.jpg)50% 0% / 200% no-repeat;
+    border: 1px;
+    border-radius: 15px;
+    margin-left: 51%;
+    margin-top: -32%;
+}
+
+.sevenServiceCard:hover {
+    background: url(/img/spa7.jpg)50% 0% / 220% no-repeat;
+}
+
+.eghtServiceCard {
+    height: 600px;
+    width: 400px;
+    background: url(/img/spa8.jpg)50% 0% / 200% no-repeat;
+    border: 1px;
+    border-radius: 15px;
+    margin-left: 75%;
+    margin-top: -32%;
+}
+
+.eghtServiceCard:hover {
+    background: url(/img/spa8.jpg)50% 0% / 220% no-repeat;
+}
+
+
+/* gift photo  */
+
+.gift {
+    width: 100%;
+    height: 800px;
+}
+
+.gift h3 {
+    font-size: 62px;
+    font-weight: 600;
+    margin-left: 3%;
+    color: rgba(31, 31, 31, 0.953);
+    margin-bottom: 50px;
+}
+
+.giftPhoto {
+    width: 94%;
+    height: 550px;
+    background: url(/img/nigtt2.jpg)70% 58% / 110% no-repeat;
+    border: 1px;
+    border-radius: 15px;
+    margin-left: 3%;
+}
+
+
+/* register  */
+
+
+/* общий блок обратной формы  */
+.registerWindow {
+    width: 100%;
+    height: 1000px;
+    background: url(/img/pngwing.com.png)0px 0px / 100% auto no-repeat;
+}
+
+/* заголовок регистрации  */
+.reg-form h3 {
+    text-align: center;
+    font-size: 62px;
+    font-weight: 500;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+/* заголовки форм обратной свзяи  */
+.registerWindow p {
+    padding-left: 35%;
+    font-size: 36px;
+    margin-top: 50px;
+    font-weight: 500;
+}
+
+/* формы обратной связи  */
+.registerWindow input {
+    width: 600px;
+    height: 50px;
+    background-color: aliceblue;
+    margin-left: 35%;
+    border: 1px solid rgb(161, 236, 253);
+    border-radius: 5px;
+    font-size: 24px;
+    
+    
+}
+
+.registerWindow input:hover {
+    background-color: rgba(128, 190, 244, 0.231);
+}
+
+/* кнопка регистрации  */
+.reg-button button {
+    margin-top: 5%;
+    padding: 20px 15px 20px 15px;
+    font-size: 18px;
+    border: 1px solid rgb(161, 236, 253);
+    border-radius: 10px;
+    position: relative;
+    left: 46%;
+}
+
+.reg-button button:hover {
+    background-color: aliceblue;
+}
+
+
+/* стили для подчеркиваний  */
+
+
+.servicesSPA hr {
+    border: 0px;
+    height: 1px;
+    margin-left: 0%;
+    margin-right: 30%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+}
+
+.gift hr {
+    border: 0px;
+    height: 1px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.reg-form hr {
+    border: 0px;
+    height: 1px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+footer hr {
+    border: 0px;
+    height: 1px;
+    margin-left: 40%;
+    margin-right: 40%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+/* стили дял подвала  */
+
+footer {
+    height: 23%;
+    background: rgba(235, 235, 235, 0.601);
+}
+
+footer h3 {
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    padding-top: 2%;
+    margin-bottom: 3%;
+}
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: rgba(255, 255, 255, 0.235);
+    justify-content: center;
+    grid-column-gap: 20%;
+    margin-left: 25%;
+    
+}
+
+.grid-footer p {
+    font-size: 18px;
+}
